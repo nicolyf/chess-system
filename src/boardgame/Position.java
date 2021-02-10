@@ -1,6 +1,8 @@
+
 package boardgame;
 
 public class Position {
+
 	private int row;
 	private int column;
 
@@ -29,9 +31,8 @@ public class Position {
 		this.row = row;
 		this.column = column;
 	}
-	
+
 	@Override
-	
 	public String toString() {
 		return row + ", " + column;
 	}
